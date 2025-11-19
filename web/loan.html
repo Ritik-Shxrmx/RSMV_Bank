@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Loan Application - RSMV Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="loan-bg">
+    <div class="container">
+        <h1>Loan Application</h1>
+        <form action="LoanServlet" method="post" class="form-box">
+            <label>Name:</label><br>
+            <input type="text" name="name" required><br><br>
+
+            <label>Loan Amount:</label><br>
+            <input type="number" name="amount" required><br><br>
+
+            <label>Purpose:</label><br>
+            <input type="text" name="purpose" required><br><br>
+
+            <button type="submit">Apply</button>
+        </form>
+    </div>
+</body>
+</html>
